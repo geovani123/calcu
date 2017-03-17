@@ -12,7 +12,7 @@
   <div data-role="header">
     <h1>Calculadora prototipo</h1>
   </div>
-  <div data-role="content">Contenido</div>
+  <div data-role="content" style="background-image:url(imagenes/b.jpg)" class="negritas">
   <table width="100%">
   <tr>
   	<td><label>Numerador:</label></td>
@@ -55,6 +55,15 @@
   <td><input type="number" id="RD" value=""></td>
   </tr>
   </table>
+  
+  </div>
+    <div data-role="controlgroup" data-type="horizontal">
+    <button onClick="Resolver('+');">SUMA</button>
+    <button onClick="Resolver('-');">RESTA</button>
+    <button onClick="Resolver('*');">MULTIPLICACION</button>
+    <button onClick="Resolver('/');">DIVISION</button>
+    <button onClick="Resolver('b');">BORRAR</button>
+    </div>
   
 </div> 
 
